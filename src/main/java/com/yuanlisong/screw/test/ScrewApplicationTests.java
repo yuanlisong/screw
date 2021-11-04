@@ -77,7 +77,7 @@ public class ScrewApplicationTests {
 				.engineConfig(engineConfig)
 				//生成配置
 				.produceConfig(processConfig).build();
-		//执行生成
+		//执行生成1
 		new DocumentationExecute(config).execute();
 	}
 }
